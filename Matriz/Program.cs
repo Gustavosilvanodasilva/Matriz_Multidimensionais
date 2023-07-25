@@ -36,37 +36,3 @@ class Matriz
 
     }
 }
-
-//using System.Data;
-
-//class Matriz
-//{
-
-//    public static void Main()
-//    {
-//        string query = "";
-//        int inc = 0;
-//        string[,] Coluna = new string[4, 2];
-
-
-//        Coluna[0, 0] = "CARGO";
-//        Coluna[1, 0] = "Gerente";
-//        Coluna[2, 0] = "Supervisor";
-//        Coluna[3, 0] = "Analista";
-
-
-//        Coluna[0, 1] = "     PESSOAS    ";
-//        Coluna[1, 1] = "     João     ";
-//        Coluna[2, 1] = "     Mario      ";
-//        Coluna[3, 1] = "     Gustavo     ";
-
-
-//        for (inc = 0; inc <= 3; inc++)
-//        {
-//            query = query + $"\r \n {Coluna[inc, 0]} || {Coluna[inc, 1]}";
-//        }
-//        Console.WriteLine(query);
-
-
-//    }
-//}
